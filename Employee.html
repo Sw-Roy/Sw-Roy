@@ -1,0 +1,190 @@
+<!doctype html>
+
+
+<head>
+ 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+  </heacss /poor. <body>
+  <div class="container-fluid" style="padding: 50px;">
+    <div class="row mb-3">
+      <div class="col-md-3 themed-grid-col">
+        <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+          <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+            <img class="bi me-md-3" width="70" height="64" src="globe.jpg" alt="">
+            <span class="fs-5 fw-semibold mx-2"
+              style="font-size: large; font-weight: bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ">GLOBAL
+
+            </span>
+          </a>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1800">
+                <img src="work.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="color: white;">
+                  <h4>Great vision without great people is irrelevant.</h4>
+
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1800">
+                <img src="code.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="color: rgb(15, 10, 10);">
+                  <h4>Code is like humor. When you have to explain it, it’s bad</h4>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="design.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="color: white;">
+                  <h5></h5>
+                  <p>Good design is obvious,Great design is transparent.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-9 themed-grid-col">
+
+        <div class=" me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+          style="background-color: rgba(165, 241, 234, 0.404); background-image: url('k.jpg'); ">
+          <div class="my-3 py-3">
+            <h2 class="display-5" style="font-weight: 600; color: white;">Hiring Candidates</h2>
+            <p class="lead" style="font-weight: 500; color: whitesmoke;">Details are listed below</p>
+
+          </div>
+          <div class="bg-body shadow-sm mx-auto"
+            style="width: 80%; hehttps://source.unsplash.com/200x200/?poor0px; border-radius: 21px 21px 0 0;">
+            <section class="logo">
+              <div class="col-md-6 mx-5">
+                <div class="row ">
+                  <p class="fs-4 mx-5">Candidate Name</p>
+                </div>
+                <div class="row mx-5">
+                  <select class="form-select form-select-sm mx-5" aria-label=".form-select-sm example"
+                    id="candidate-selection">
+                    <option value="select" selected>Choose..</option>
+                    <option value="Sanchari Singha">Sanchari Singha</option>
+                    <option value="Swarna Roy">Swarna Roy</option>
+                    <option value="Anusree Goswami">Anusree Goswami</option>
+                    <option value="Srijan Sinha">Srijan Sinha</option>
+                  </select>
+                </div>
+
+                <div class="row profession-card">
+                  <div class="card mx-5 my-2">
+                    <div class="card-body hide">
+                      <h5 class="card-title">Candidate Profession</h5>
+                      <form id="profession-form" target="">
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                       
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="work" class="form-label">Work</label>
+                          <input type="text" class="form-control" id="work" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row mx-5">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">email</th>
+
+                        <th scope="col">Work</th>
+                        <th scope="col">Delete</th>
+                      </tr>
+                    </thead>
+                    <tbody id="table-body">
+
+                    </tbody>
+                  </table>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                  <button class="btn btn-success" type="button" id="continue">Next page</button>
+                </div>
+              </div>
+            </section>
+
+            <div class="modal" id="myModal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Error</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/CSR.js"></script>
+  <!-- <script type="text/javascript">
+        document. getElementById("btn1"). onclick = function () {
+        location. href = "info.html";
+        };
+        </script> -->
+
+
+  </body>
+
+</html>
